@@ -1,0 +1,30 @@
+{"id": "V001", "text": "Bonjour, vous avez du Daflon 500 ?", "lang": "fr", "intent": "check_availability", "medications": ["daflon"], "quantity": null, "dosage_mg": 500, "city": null}
+{"id": "V002", "text": "je veux réserver 3 boîtes de Levothyrox 50", "lang": "fr", "intent": "order_medication", "medications": ["levothyrox"], "quantity": 3, "dosage_mg": null, "city": null}
+{"id": "V003", "text": "C'est combien le Tahor 20 mg ?", "lang": "fr", "intent": "ask_price", "medications": ["tahor"], "quantity": null, "dosage_mg": 20, "city": null}
+{"id": "V004", "text": "Le Plavix 75 est remboursé ?", "lang": "fr", "intent": "ask_reimbursement", "medications": ["plavix"], "quantity": null, "dosage_mg": 75, "city": null}
+{"id": "V005", "text": "il y a un générique pour l'Inexium 40 ?", "lang": "fr", "intent": "ask_alternative", "medications": ["inexium"], "quantity": null, "dosage_mg": 40, "city": null}
+{"id": "V006", "text": "pharmacie de garde à Tétouan svp", "lang": "fr", "intent": "pharmacy_hours", "medications": [], "quantity": null, "dosage_mg": null, "city": "Tétouan"}
+{"id": "V007", "text": "Est-ce que je peux prendre du Xanax avec de l'alcool ?", "lang": "fr", "intent": "out_of_scope", "medications": ["xanax"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V008", "text": "واش عندكم الموتيليوم؟", "lang": "darija", "intent": "check_availability", "medications": ["motilium"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V009", "text": "بغيت جوج علب ديال البريمبيران", "lang": "darija", "intent": "order_medication", "medications": ["primperan"], "quantity": 2, "dosage_mg": null, "city": null}
+{"id": "V010", "text": "بشحال الكافيسكون؟", "lang": "darija", "intent": "ask_price", "medications": ["gaviscon"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V011", "text": "الديامكرون كيتعوض ولا لا؟", "lang": "darija", "intent": "ask_reimbursement", "medications": ["diamicron"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V012", "text": "فين كاينة شي فرمسيان محلولة فمكناس؟", "lang": "darija", "intent": "pharmacy_hours", "medications": [], "quantity": null, "dosage_mg": null, "city": "Meknès"}
+{"id": "V013", "text": "شحال من حبة ناخد ديال الدوليبران فالنهار؟", "lang": "darija", "intent": "out_of_scope", "medications": ["doliprane"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V014", "text": "هل يوجد دواء سيبروكسين؟", "lang": "ar", "intent": "check_availability", "medications": ["ciproxine"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V015", "text": "أريد حجز علبة من البيتادين", "lang": "ar", "intent": "order_medication", "medications": ["betadine"], "quantity": 1, "dosage_mg": null, "city": null}
+{"id": "V016", "text": "كم سعر دواء ديبريدات؟", "lang": "ar", "intent": "ask_price", "medications": ["debridat"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V017", "text": "ما هي الآثار الجانبية لدواء تاهور؟", "lang": "ar", "intent": "out_of_scope", "medications": ["tahor"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V018", "text": "wach kayn exacyl 500?", "lang": "darija_latin", "intent": "check_availability", "medications": ["exacyl"], "quantity": null, "dosage_mg": 500, "city": null}
+{"id": "V019", "text": "bghit 2 dyal forlax 3afak", "lang": "darija_latin", "intent": "order_medication", "medications": ["forlax"], "quantity": 2, "dosage_mg": null, "city": null}
+{"id": "V020", "text": "ch7al taman coversyl 5mg", "lang": "darija_latin", "intent": "ask_price", "medications": ["coversyl"], "quantity": null, "dosage_mg": 5, "city": null}
+{"id": "V021", "text": "wach lantus kayt3wed f cnops?", "lang": "darija_latin", "intent": "ask_reimbursement", "medications": ["lantus"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V022", "text": "kayn chi bdil l panadol?", "lang": "darija_latin", "intent": "ask_alternative", "medications": ["panadol"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V023", "text": "fin kayna pharmacie qriba f kenitra", "lang": "darija_latin", "intent": "find_pharmacy", "medications": [], "quantity": null, "dosage_mg": null, "city": "Kénitra"}
+{"id": "V024", "text": "wlidi 3ndo skhana chno n3tih?", "lang": "darija_latin", "intent": "out_of_scope", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V025", "text": "3ndkom bronchokod sirop?", "lang": "darija_latin", "intent": "check_availability", "medications": ["bronchokod"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V026", "text": "salam, bghit nreservi fucidine crème", "lang": "mixed", "intent": "order_medication", "medications": ["fucidine"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V027", "text": "واش duphalac disponible؟", "lang": "mixed", "intent": "check_availability", "medications": ["duphalac"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V028", "text": "bonjour ch7al le prix dyal seretide", "lang": "mixed", "intent": "ask_price", "medications": ["seretide"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "V029", "text": "pharmacie de garde ف الرباط الليلة", "lang": "mixed", "intent": "pharmacy_hours", "medications": [], "quantity": null, "dosage_mg": null, "city": "Rabat"}
+{"id": "V030", "text": "lovenox 4000 remboursable wla la?", "lang": "mixed", "intent": "ask_reimbursement", "medications": ["lovenox"], "quantity": null, "dosage_mg": 4000, "city": null}

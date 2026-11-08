@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Assistant Pharmacie</title>
+<style>
+  :root{--bg:#f6f7f5;--card:#fff;--ink:#1d2321;--muted:#66706c;--acc:#0f7a5c;--line:#dfe4e1}
+  @media (prefers-color-scheme:dark){:root{--bg:#111514;--card:#1a201e;--ink:#e8ece9;--muted:#9aa5a0;--acc:#3fbf93;--line:#2b3431}}
+  *{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--ink)}
+  main{max-width:1100px;margin:0 auto;padding:16px;display:grid;gap:16px;grid-template-columns:1fr 1fr}
+  @media(max-width:800px){main{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+  h1{font-size:18px;margin:16px 16px 0}#log{height:55vh;overflow:auto;display:flex;flex-direction:column;gap:8px}
+  .m{padding:8px 12px;border-radius:10px;max-width:90%;white-space:pre-wrap;unicode-bidi:plaintext}
+  .u{align-self:flex-end;background:var(--acc);color:#fff}.a{align-self:flex-start;background:var(--bg);border:1px solid var(--line)}
+  form{display:flex;gap:8px;margin-top:10px}input{flex:1;padding:10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);unicode-bidi:plaintext}
+  button{padding:10px 14px;border:0;border-radius:8px;background:var(--acc);color:#fff;cursor:pointer}button.rec{background:#c0392b}
+  pre{margin:0;height:62vh;overflow:auto;font-size:12px}.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+  .chip{font-size:12px;padding:4px 8px;border:1px solid var(--line);border-radius:99px;cursor:pointer;background:var(--bg)}
+</style>
+</head>
+<body>
+<h1>Assistant patient–pharmacie · العربية · الدارجة · Français</h1>
+<main>
+  <section class="card">
+    <div id="log"></div>
+    <form id="f"><input id="t" placeholder="ex: bghit jouj d les boites doliprane 1000 f rbat" autocomplete="off">
+      <button>Envoyer</button><button type="button" id="mic">🎤</button></form>
+    <div class="chips" id="ex"></div>
+  </section>
+  <section class="card"><pre id="json">{}</pre></section>
+</main>
+<script>
+const examples=["Est-ce que je peux prendre du Xanax avec de l alcool ?","je voudrais 2 boites de doliprane","واش كاين الدوليبران؟","Avez-vous du Spasfon 80 mg ?","ch7al taman augmentin 1g","fin kayna pharmacie de garde f rabat","بغيت جوج علب ديال دوليبران 500 و علبة سبسفون","est-ce que le glucophage 850 est remboursable ?","بديل ديال كلاموكسيل"];
+let sid=null;const log=document.getElementById('log');
+function add(c,t){const d=document.createElement('div');d.className='m '+c;d.textContent=t;log.appendChild(d);log.scrollTop=1e9}
+function show(j){sid=j.session_id;document.getElementById('json').textContent=JSON.stringify(j,null,2);add('a',j.reply||'—')}
+async function send(text){add('u',text);const r=await fetch('/v1/analyze',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text,session_id:sid})});show(await r.json())}
+document.getElementById('f').onsubmit=e=>{e.preventDefault();const t=document.getElementById('t');if(t.value.trim()){send(t.value.trim());t.value=''}};
+examples.forEach(x=>{const c=document.createElement('span');c.className='chip';c.textContent=x;c.onclick=()=>send(x);document.getElementById('ex').appendChild(c)});
+let rec=null,chunks=[];const mic=document.getElementById('mic');
+mic.onclick=async()=>{
+  if(rec&&rec.state==='recording'){rec.stop();return}
+  try{const s=await navigator.mediaDevices.getUserMedia({audio:true});rec=new MediaRecorder(s);chunks=[];
+    rec.ondataavailable=e=>chunks.push(e.data);
+    rec.onstop=async()=>{mic.classList.remove('rec');s.getTracks().forEach(t=>t.stop());
+      const fd=new FormData();fd.append('audio',new Blob(chunks,{type:'audio/webm'}),'voice.webm');if(sid)fd.append('session_id',sid);
+      add('u','🎤 …');const r=await fetch('/v1/analyze/voice',{method:'POST',body:fd});const j=await r.json();
+      if(!r.ok){add('a','ASR: '+(j.detail||r.status));return}
+      log.lastChild.textContent='🎤 '+j.input.text;show(j)};
+    rec.start();mic.classList.add('rec')}catch(e){add('a','Micro indisponible: '+e)}};
+</script>
+</body>
+</html>

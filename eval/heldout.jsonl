@@ -1,0 +1,30 @@
+{"id": "H001", "text": "svp vous auriez du dafalgan ou de l'efferalgan ?", "lang": "fr", "intent": "check_availability", "medications": ["efferalgan"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H002", "text": "Je souhaite réserver 4 boîtes de Kardegic 75", "lang": "fr", "intent": "order_medication", "medications": ["kardegic"], "quantity": 4, "dosage_mg": 75, "city": null}
+{"id": "H003", "text": "Le Voltarene c'est combien chez vous ?", "lang": "fr", "intent": "ask_price", "medications": ["voltarene"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H004", "text": "Amoxil remboursé par l'AMO ?", "lang": "fr", "intent": "ask_reimbursement", "medications": ["amoxil"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H005", "text": "Y a-t-il un équivalent moins cher du Doliprane 500 ?", "lang": "fr", "intent": "ask_alternative", "medications": ["doliprane"], "quantity": null, "dosage_mg": 500, "city": null}
+{"id": "H006", "text": "pharmacie ouverte dimanche à Meknès", "lang": "fr", "intent": "pharmacy_hours", "medications": [], "quantity": null, "dosage_mg": null, "city": "Meknès"}
+{"id": "H007", "text": "Comment joindre la pharmacie Démo Hassan ?", "lang": "fr", "intent": "pharmacy_contact", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H008", "text": "j'ai besoin d'une pharmacie à Kénitra", "lang": "fr", "intent": "find_pharmacy", "medications": [], "quantity": null, "dosage_mg": null, "city": "Kénitra"}
+{"id": "H009", "text": "واش عندكم دوا سموكتا؟", "lang": "darija", "intent": "check_availability", "medications": ["smecta"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H010", "text": "صيفطو ليا جوج ديال الكلاريتين", "lang": "darija", "intent": "order_medication", "medications": ["clarityne"], "quantity": 2, "dosage_mg": null, "city": null}
+{"id": "H011", "text": "شحال كيسوا الڤولتارين؟", "lang": "darija", "intent": "ask_price", "medications": ["voltarene"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H012", "text": "الأمبور 5 واش كيتعوض؟", "lang": "darija", "intent": "ask_reimbursement", "medications": ["amlor"], "quantity": null, "dosage_mg": 5, "city": null}
+{"id": "H013", "text": "فين نلقى فرمسيان محلولة دابا فكازا؟", "lang": "darija", "intent": "pharmacy_hours", "medications": [], "quantity": null, "dosage_mg": null, "city": "Casablanca"}
+{"id": "H014", "text": "بغيت النمرة ديال صيدلية ديمو تابريكت", "lang": "darija", "intent": "pharmacy_contact", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H015", "text": "خاصني دوا ديال الضغط", "lang": "darija", "intent": "order_medication", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H016", "text": "هل دواء لازيليكس متوفر؟", "lang": "ar", "intent": "check_availability", "medications": ["lasilix"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H017", "text": "أود شراء ثلاثة علب من الإيفيرالغان", "lang": "ar", "intent": "order_medication", "medications": ["efferalgan"], "quantity": 3, "dosage_mg": null, "city": null}
+{"id": "H018", "text": "كم ثمن دواء فلاجيل 500؟", "lang": "ar", "intent": "ask_price", "medications": ["flagyl"], "quantity": null, "dosage_mg": 500, "city": null}
+{"id": "H019", "text": "ما هي صيدلية الحراسة في وجدة؟", "lang": "ar", "intent": "pharmacy_hours", "medications": [], "quantity": null, "dosage_mg": null, "city": "Oujda"}
+{"id": "H020", "text": "wach 3ndkom aspegic?", "lang": "darija_latin", "intent": "check_availability", "medications": ["aspegic"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H021", "text": "bghit 3 d les boites clarityne", "lang": "darija_latin", "intent": "order_medication", "medications": ["clarityne"], "quantity": 3, "dosage_mg": null, "city": null}
+{"id": "H022", "text": "bch7al ventoline?", "lang": "darija_latin", "intent": "ask_price", "medications": ["ventoline"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H023", "text": "wach kayn chi generique dyal augmentin?", "lang": "darija_latin", "intent": "ask_alternative", "medications": ["augmentin"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H024", "text": "fin kayna chi farmasyan f tanja", "lang": "darija_latin", "intent": "find_pharmacy", "medications": [], "quantity": null, "dosage_mg": null, "city": "Tanger"}
+{"id": "H025", "text": "3afak nmra dyal pharmacie demo maarif", "lang": "darija_latin", "intent": "pharmacy_contact", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H026", "text": "dolipran 1000 3afak", "lang": "darija_latin", "intent": "check_availability", "medications": ["doliprane"], "quantity": null, "dosage_mg": 1000, "city": null}
+{"id": "H027", "text": "salam 3likom bghit spasfone", "lang": "darija_latin", "intent": "order_medication", "medications": ["spasfon"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "H028", "text": "bonjour bghit nsewel 3la prix dyal glucophage 1000", "lang": "mixed", "intent": "ask_price", "medications": ["glucophage"], "quantity": null, "dosage_mg": 1000, "city": null}
+{"id": "H029", "text": "واش mopral 20 mg disponible؟", "lang": "mixed", "intent": "check_availability", "medications": ["mopral"], "quantity": null, "dosage_mg": 20, "city": null}
+{"id": "H030", "text": "est-ce que zyrtec كيتعوض؟", "lang": "mixed", "intent": "ask_reimbursement", "medications": ["zyrtec"], "quantity": null, "dosage_mg": null, "city": null}

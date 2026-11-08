@@ -1,0 +1,1 @@
+{"id": "H012", "text": "الأمبور 5 واش كيتعوض؟", "gold": {"lang": "darija", "intent": "ask_reimbursement", "medications": ["amlor"]}, "pred": {"lang": "darija", "code_mixed": false, "intent": "ask_reimbursement", "medications": []}, "evidence": {"ask_reimbursement": ["كيتعوض"]}}

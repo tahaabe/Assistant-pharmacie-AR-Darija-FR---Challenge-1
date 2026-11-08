@@ -1,0 +1,11 @@
+id,name,city,district,address,phone,lat,lon,garde,hours,source
+P001,Pharmacie Démo Agdal,Rabat,Agdal,Avenue (exemple) - Agdal,+212 500 000 001,33.9960,-6.8480,1,08:30-23:00,SAMPLE
+P002,Pharmacie Démo Hassan,Rabat,Hassan,Rue (exemple) - Hassan,+212 500 000 002,34.0200,-6.8350,0,08:30-20:00,SAMPLE
+P003,Pharmacie Démo Hay Riad,Rabat,Hay Riad,Avenue (exemple) - Hay Riad,+212 500 000 003,33.9590,-6.8740,0,09:00-21:00,SAMPLE
+P004,Pharmacie Démo Tabriquet,Salé,Tabriquet,Bd (exemple) - Tabriquet,+212 500 000 004,34.0480,-6.8000,1,24h/24,SAMPLE
+P005,Pharmacie Démo Maârif,Casablanca,Maârif,Rue (exemple) - Maârif,+212 500 000 005,33.5850,-7.6320,0,08:30-20:30,SAMPLE
+P006,Pharmacie Démo Ain Diab,Casablanca,Ain Diab,Bd (exemple) - Ain Diab,+212 500 000 006,33.5920,-7.6700,1,24h/24,SAMPLE
+P007,Pharmacie Démo Ville Nouvelle,Fès,Ville Nouvelle,Av (exemple) - Ville Nouvelle,+212 500 000 007,34.0330,-5.0000,0,08:30-20:00,SAMPLE
+P008,Pharmacie Démo Guéliz,Marrakech,Guéliz,Av (exemple) - Guéliz,+212 500 000 008,31.6340,-8.0100,1,24h/24,SAMPLE
+P009,Pharmacie Démo Centre,Tanger,Centre,Bd (exemple) - Centre,+212 500 000 009,35.7700,-5.8100,0,08:30-20:00,SAMPLE
+P010,Pharmacie Démo Talborjt,Agadir,Talborjt,Rue (exemple) - Talborjt,+212 500 000 010,30.4250,-9.5980,0,08:30-20:00,SAMPLE

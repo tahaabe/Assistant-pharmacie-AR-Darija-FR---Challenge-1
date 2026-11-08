@@ -1,0 +1,137 @@
+{
+  "tag": "real_heldout_v2_after_fixes",
+  "data": {
+    "medications": "medicaments.csv",
+    "pharmacies": "sample_pharmacies.csv"
+  },
+  "overall": {
+    "n": 30,
+    "language_acc": 0.933,
+    "intent_acc": 1.0,
+    "med_precision": 1.0,
+    "med_recall": 1.0,
+    "med_f1": 1.0,
+    "quantity_acc": 1.0,
+    "dosage_acc": 1.0,
+    "city_acc": 1.0,
+    "exact_match": 0.933,
+    "intent_macro_f1": 1.0
+  },
+  "by_language": {
+    "ar": {
+      "n": 4,
+      "language_acc": 1.0,
+      "intent_acc": 1.0,
+      "med_precision": 1.0,
+      "med_recall": 1.0,
+      "med_f1": 1.0,
+      "quantity_acc": 1.0,
+      "dosage_acc": null,
+      "city_acc": null,
+      "exact_match": 1.0
+    },
+    "darija": {
+      "n": 6,
+      "language_acc": 1.0,
+      "intent_acc": 1.0,
+      "med_precision": 1.0,
+      "med_recall": 1.0,
+      "med_f1": 1.0,
+      "quantity_acc": 1.0,
+      "dosage_acc": null,
+      "city_acc": 1.0,
+      "exact_match": 1.0
+    },
+    "darija_latin": {
+      "n": 8,
+      "language_acc": 1.0,
+      "intent_acc": 1.0,
+      "med_precision": 1.0,
+      "med_recall": 1.0,
+      "med_f1": 1.0,
+      "quantity_acc": 1.0,
+      "dosage_acc": 1.0,
+      "city_acc": 1.0,
+      "exact_match": 1.0
+    },
+    "fr": {
+      "n": 7,
+      "language_acc": 1.0,
+      "intent_acc": 1.0,
+      "med_precision": 1.0,
+      "med_recall": 1.0,
+      "med_f1": 1.0,
+      "quantity_acc": 1.0,
+      "dosage_acc": 1.0,
+      "city_acc": 1.0,
+      "exact_match": 1.0
+    },
+    "mixed": {
+      "n": 5,
+      "language_acc": 0.6,
+      "intent_acc": 1.0,
+      "med_precision": 1.0,
+      "med_recall": 1.0,
+      "med_f1": 1.0,
+      "quantity_acc": null,
+      "dosage_acc": 1.0,
+      "city_acc": 1.0,
+      "exact_match": 0.6
+    }
+  },
+  "per_intent": {
+    "ask_alternative": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    "ask_price": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 5
+    },
+    "ask_reimbursement": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 4
+    },
+    "check_availability": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 6
+    },
+    "find_pharmacy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1
+    },
+    "order_medication": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 5
+    },
+    "out_of_scope": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 4
+    },
+    "pharmacy_hours": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    }
+  },
+  "llm_fallback_calls": 0,
+  "latency_ms": {
+    "median": 1.43,
+    "p95": 2.94
+  }
+}

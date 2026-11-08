@@ -1,0 +1,53 @@
+{"id": "S001", "text": "Bonjour, avez-vous du Doliprane 1000 ?", "lang": "fr", "intent": "check_availability", "medications": ["doliprane"], "quantity": null, "dosage_mg": 1000, "city": null}
+{"id": "S002", "text": "Je voudrais commander 2 boîtes de Spasfon", "lang": "fr", "intent": "order_medication", "medications": ["spasfon"], "quantity": 2, "dosage_mg": null, "city": null}
+{"id": "S003", "text": "Combien coûte l'Augmentin 1g ?", "lang": "fr", "intent": "ask_price", "medications": ["augmentin"], "quantity": null, "dosage_mg": 1000, "city": null}
+{"id": "S004", "text": "Est-ce que le Glucophage 850 est remboursé par la CNOPS ?", "lang": "fr", "intent": "ask_reimbursement", "medications": ["glucophage"], "quantity": null, "dosage_mg": 850, "city": null}
+{"id": "S005", "text": "Il existe un générique du Brufen 400 ?", "lang": "fr", "intent": "ask_alternative", "medications": ["brufen"], "quantity": null, "dosage_mg": 400, "city": null}
+{"id": "S006", "text": "Quelle est la pharmacie de garde à Casablanca ce soir ?", "lang": "fr", "intent": "pharmacy_hours", "medications": [], "quantity": null, "dosage_mg": null, "city": "Casablanca"}
+{"id": "S007", "text": "Je cherche une pharmacie près de moi", "lang": "fr", "intent": "find_pharmacy", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S008", "text": "Donnez-moi le numéro de la pharmacie Démo Agdal", "lang": "fr", "intent": "pharmacy_contact", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S009", "text": "Pouvez-vous me réserver une boîte de Ventoline à Rabat ?", "lang": "fr", "intent": "order_medication", "medications": ["ventoline"], "quantity": 1, "dosage_mg": null, "city": "Rabat"}
+{"id": "S010", "text": "Le Zyrtec est disponible ?", "lang": "fr", "intent": "check_availability", "medications": ["zyrtec"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S011", "text": "prix du mopral 20 mg svp", "lang": "fr", "intent": "ask_price", "medications": ["mopral"], "quantity": null, "dosage_mg": 20, "city": null}
+{"id": "S012", "text": "Où se trouve la pharmacie la plus proche à Fès ?", "lang": "fr", "intent": "find_pharmacy", "medications": [], "quantity": null, "dosage_mg": null, "city": "Fès"}
+{"id": "S013", "text": "j'ai besoin de 3 boites de smecta", "lang": "fr", "intent": "order_medication", "medications": ["smecta"], "quantity": 3, "dosage_mg": null, "city": null}
+{"id": "S014", "text": "Par quoi remplacer le Clamoxyl ?", "lang": "fr", "intent": "ask_alternative", "medications": ["clamoxyl"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S015", "text": "Bonsoir", "lang": "fr", "intent": "greeting", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S016", "text": "واش كاين الدوليبران؟", "lang": "darija", "intent": "check_availability", "medications": ["doliprane"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S017", "text": "بغيت جوج علب ديال دوليبران 500", "lang": "darija", "intent": "order_medication", "medications": ["doliprane"], "quantity": 2, "dosage_mg": 500, "city": null}
+{"id": "S018", "text": "شحال ثمن الأوكمنتين؟", "lang": "darija", "intent": "ask_price", "medications": ["augmentin"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S019", "text": "فين كاينة صيدلية الحراسة فالرباط؟", "lang": "darija", "intent": "pharmacy_hours", "medications": [], "quantity": null, "dosage_mg": null, "city": "Rabat"}
+{"id": "S020", "text": "عطيني النمرة ديال الصيدلية", "lang": "darija", "intent": "pharmacy_contact", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S021", "text": "واش السبسفون كيتعوض فالكنوبس؟", "lang": "darija", "intent": "ask_reimbursement", "medications": ["spasfon"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S022", "text": "كاين شي بديل ديال الكلاموكسيل؟", "lang": "darija", "intent": "ask_alternative", "medications": ["clamoxyl"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S023", "text": "خليو ليا علبة ديال فنتولين", "lang": "darija", "intent": "order_medication", "medications": ["ventoline"], "quantity": 1, "dosage_mg": null, "city": null}
+{"id": "S024", "text": "بشحال الفلاجيل؟", "lang": "darija", "intent": "ask_price", "medications": ["flagyl"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S025", "text": "صيدلية قريبة مني فطنجة", "lang": "darija", "intent": "find_pharmacy", "medications": [], "quantity": null, "dosage_mg": null, "city": "Tanger"}
+{"id": "S026", "text": "عندكم الزيرتيك؟", "lang": "darija", "intent": "check_availability", "medications": ["zyrtec"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S027", "text": "بغيت تلاتة ديال البريفن", "lang": "darija", "intent": "order_medication", "medications": ["brufen"], "quantity": 3, "dosage_mg": null, "city": null}
+{"id": "S028", "text": "السلام عليكم", "lang": "darija", "intent": "greeting", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S029", "text": "هل يوجد دواء كلاموكسيل في الصيدلية؟", "lang": "ar", "intent": "check_availability", "medications": ["clamoxyl"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S030", "text": "أريد حجز علبتين من الدوليبران", "lang": "ar", "intent": "order_medication", "medications": ["doliprane"], "quantity": 2, "dosage_mg": null, "city": null}
+{"id": "S031", "text": "ما هو سعر دواء موبرال؟", "lang": "ar", "intent": "ask_price", "medications": ["mopral"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S032", "text": "أين توجد أقرب صيدلية في مراكش؟", "lang": "ar", "intent": "find_pharmacy", "medications": [], "quantity": null, "dosage_mg": null, "city": "Marrakech"}
+{"id": "S033", "text": "ما هو رقم هاتف الصيدلية؟", "lang": "ar", "intent": "pharmacy_contact", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S034", "text": "هل الكلوكوفاج قابل للتعويض؟", "lang": "ar", "intent": "ask_reimbursement", "medications": ["glucophage"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S035", "text": "هل يوجد بديل لدواء أدفيل؟", "lang": "ar", "intent": "ask_alternative", "medications": ["advil"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S036", "text": "wach kayn doliprane 1000?", "lang": "darija_latin", "intent": "check_availability", "medications": ["doliprane"], "quantity": null, "dosage_mg": 1000, "city": null}
+{"id": "S037", "text": "bghit jouj d les boites dyal spasfon", "lang": "darija_latin", "intent": "order_medication", "medications": ["spasfon"], "quantity": 2, "dosage_mg": null, "city": null}
+{"id": "S038", "text": "ch7al taman augmentin 1g", "lang": "darija_latin", "intent": "ask_price", "medications": ["augmentin"], "quantity": null, "dosage_mg": 1000, "city": null}
+{"id": "S039", "text": "fin kayna pharmacie de garde f rbat", "lang": "darija_latin", "intent": "pharmacy_hours", "medications": [], "quantity": null, "dosage_mg": null, "city": "Rabat"}
+{"id": "S040", "text": "3tini nmra dyal pharmacie", "lang": "darija_latin", "intent": "pharmacy_contact", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S041", "text": "wach glucophage kayt3wed f cnops?", "lang": "darija_latin", "intent": "ask_reimbursement", "medications": ["glucophage"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S042", "text": "kayn chi bdil l voltarene?", "lang": "darija_latin", "intent": "ask_alternative", "medications": ["voltarene"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S043", "text": "pharmacie qriba liya f casa", "lang": "darija_latin", "intent": "find_pharmacy", "medications": [], "quantity": null, "dosage_mg": null, "city": "Casablanca"}
+{"id": "S044", "text": "khlli liya 3lba dyal lasilix", "lang": "darija_latin", "intent": "order_medication", "medications": ["lasilix"], "quantity": 1, "dosage_mg": null, "city": null}
+{"id": "S045", "text": "3ndkom kardegic?", "lang": "darija_latin", "intent": "check_availability", "medications": ["kardegic"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S046", "text": "salam", "lang": "darija_latin", "intent": "greeting", "medications": [], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S047", "text": "salam, est-ce que vous avez le rhinathiol sirop?", "lang": "mixed", "intent": "check_availability", "medications": ["rhinathiol"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S048", "text": "بغيت 2 boites de doliprane 500 mg", "lang": "mixed", "intent": "order_medication", "medications": ["doliprane"], "quantity": 2, "dosage_mg": 500, "city": null}
+{"id": "S049", "text": "ch7al le prix dyal amlor 5 mg", "lang": "mixed", "intent": "ask_price", "medications": ["amlor"], "quantity": null, "dosage_mg": 5, "city": null}
+{"id": "S050", "text": "واش كاين pharmacie de garde ف سلا؟", "lang": "mixed", "intent": "pharmacy_hours", "medications": [], "quantity": null, "dosage_mg": null, "city": "Salé"}
+{"id": "S051", "text": "bghit nreserver zyrtec w smecta", "lang": "mixed", "intent": "order_medication", "medications": ["zyrtec", "smecta"], "quantity": null, "dosage_mg": null, "city": null}
+{"id": "S052", "text": "واش aspegic 1000 remboursable ?", "lang": "mixed", "intent": "ask_reimbursement", "medications": ["aspegic"], "quantity": null, "dosage_mg": 1000, "city": null}
+{"id": "S053", "text": "doliprane w spasfon f agadir 3afak", "lang": "mixed", "intent": "check_availability", "medications": ["doliprane", "spasfon"], "quantity": null, "dosage_mg": null, "city": "Agadir"}
